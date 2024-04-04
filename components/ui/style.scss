@@ -1,0 +1,25 @@
+.tiptap {
+  > * + * {
+    margin-top: 0.75em;
+  }
+
+  pre {
+    background:#0d0d0d;
+    // background: url('./themes/texture1.jpg') repeat scroll 0 0 #181914;
+    color: #a5a2a2;
+    font-family: "JetBrainsMono", monospace;
+    padding: 0.75rem 1rem;
+    width: 100%;
+
+    code {
+      background: none;
+      color: inherit;
+      font-size: 0.8rem;
+      padding: 0;
+      
+      
+    }
+ 
+ 
+  }
+}
